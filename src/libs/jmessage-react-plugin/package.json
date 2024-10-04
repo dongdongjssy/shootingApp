@@ -1,0 +1,75 @@
+{
+  "_from": "jmessage-react-plugin@^3.1.7",
+  "_id": "jmessage-react-plugin@3.1.8",
+  "_inBundle": false,
+  "_integrity": "sha512-0d+PRxlXjCYndH8sNroR/f1ih4P33T2W1K9PHu/uwZZq06iG9K6Es9rLbmaohWBfoxEuuvb9BNiUFND6Um8n4w==",
+  "_location": "/jmessage-react-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "jmessage-react-plugin@^3.1.7",
+    "name": "jmessage-react-plugin",
+    "escapedName": "jmessage-react-plugin",
+    "rawSpec": "^3.1.7",
+    "saveSpec": null,
+    "fetchSpec": "^3.1.7"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jmessage-react-plugin/-/jmessage-react-plugin-3.1.8.tgz",
+  "_shasum": "d479c40cb9ba3141f10169ab29a3488fc9ef25ef",
+  "_spec": "jmessage-react-plugin@^3.1.7",
+  "_where": "C:\\Users\\Administrator\\Desktop\\CPSA",
+  "author": {
+    "name": "KenChoi, huminiOS"
+  },
+  "bugs": {
+    "url": "https://github.com/jpush/jmessage-react-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jcore-react-native": ">=1.3.1"
+  },
+  "deprecated": false,
+  "description": "a jmessage plugin for react native application",
+  "homepage": "https://github.com/jpush/jmessage-react-plugin#readme",
+  "keywords": [
+    "react",
+    "native",
+    "jmessage"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "jmessage-react-plugin",
+  "peerDependencies": {
+    "jcore-react-native": ">= 1.2.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jpush/jmessage-react-plugin.git"
+  },
+  "rnpm": {
+    "ios": {
+      "sharedLibraries": [
+        "libz",
+        "UserNotifications",
+        "CoreTelephony",
+        "Security",
+        "CFNetwork",
+        "CoreFoundation",
+        "SystemConfiguration",
+        "Foundation",
+        "UIKit",
+        "libresolv",
+        "CoreGraphics",
+        "CoreAudio",
+        "AudioToolbox",
+        "MobileCoreServices",
+        "libsqlite3"
+      ]
+    }
+  },
+  "version": "3.1.8"
+}

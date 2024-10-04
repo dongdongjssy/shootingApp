@@ -1,0 +1,71 @@
+{
+  "_from": "aurora-imui-react-native@^0.14.0",
+  "_id": "aurora-imui-react-native@0.14.0",
+  "_inBundle": false,
+  "_integrity": "sha512-DzSuxPV6rtpCi6H3lGEB2YBCIAkldURzOdD5PU2Zi3RDGc/bN7PQk2TigFS4Uh2RK9vqlqsHko1dtB87vfXToQ==",
+  "_location": "/aurora-imui-react-native",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "aurora-imui-react-native@^0.14.0",
+    "name": "aurora-imui-react-native",
+    "escapedName": "aurora-imui-react-native",
+    "rawSpec": "^0.14.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.14.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/aurora-imui-react-native/-/aurora-imui-react-native-0.14.0.tgz",
+  "_shasum": "6e1428248443a007f64a592ae716ba52f6f63f3f",
+  "_spec": "aurora-imui-react-native@^0.14.0",
+  "_where": "C:\\Users\\Administrator\\Desktop\\CPSA",
+  "author": {
+    "name": "KenChoi, huminiOS"
+  },
+  "bugs": {
+    "url": "https://github.com/jpush/aurora-imui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "aurora imui plugin for react native application",
+  "files": [
+    "iOS/IMUICommon",
+    "iOS/IMUIInputView",
+    "iOS/IMUIMessageCollectionView",
+    "ReactNative/android/",
+    "ReactNative/ios/",
+    "ReactNative/*.js",
+    "ReactNative/package.json"
+  ],
+  "homepage": "https://github.com/jpush/aurora-imui",
+  "keywords": [
+    "react",
+    "native",
+    "imui"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "aurora-imui-react-native",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jpush/aurora-imui.git"
+  },
+  "rnpm": {
+    "ios": {
+      "sharedLibraries": [
+        "libz",
+        "CoreTelephony",
+        "CFNetwork",
+        "CoreFoundation",
+        "SystemConfiguration",
+        "Foundation",
+        "UIKit",
+        "CoreGraphics"
+      ]
+    }
+  },
+  "version": "0.14.0"
+}

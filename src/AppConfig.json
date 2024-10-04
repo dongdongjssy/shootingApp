@@ -1,0 +1,18 @@
+{
+    "defaultFromCurrency":{
+      "code": "KES",
+      "name": "KES",
+      "description": "Kenya Shilling",
+      "country": ""
+    },
+    "defaultToCurrency":{
+      "code": "CNY",
+      "name": "CNY",
+      "description": "RMB"
+    },
+    "defaultRemitSysParam":{
+      "remitMaxAmount": 10000,
+      "remitFees": 18,
+      "remitMinAmount": 10
+    }
+  }

@@ -1,0 +1,79 @@
+/**
+ *
+ * Copyright 2016-present reading
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+import React from 'react';
+import {
+	RefreshControl,
+	ScrollView,
+	StyleSheet,
+	Text,
+	View,
+	TouchableOpacity,
+	Image,
+} from 'react-native';
+import { images } from '../res/images';
+
+import { observer } from 'mobx-react'
+@observer
+export default class EmptyView extends React.Component {
+	render() {
+
+		return (
+			<View style={{ flex: 1 }}>
+				<ScrollView
+					automaticallyAdjustContentInsets={false}
+					horizontal={false}
+					contentContainerStyle={styles.no_data}
+					style={styles.base}
+				>
+					<TouchableOpacity
+						onPress={() => {
+							this.props.onRefresh && this.props.onRefresh()
+						}}
+						style={{ alignItems: 'center', justifyContent: "center", marginTop: scaleSize(50) }}>
+						<Image style={{ width: scaleSize(150), height: scaleSize(150) }} source={images.common.club_empty} />
+						<Text style={styles.text}>{"暂无内容"}</Text>
+					</TouchableOpacity>
+				</ScrollView>
+			</View>
+		)
+	}
+}
+
+
+const styles = StyleSheet.create({
+	base: {
+
+	},
+	no_data: {
+		flex: 1,
+		alignItems: 'center',
+		justifyContent: 'center',
+		paddingBottom: 100
+	},
+	refreshControlBase: {
+		backgroundColor: 'transparent'
+	},
+	text: {
+		marginTop: scaleSize(10),
+		height: scaleSize(33),
+		color: '#707070',
+		fontSize: 20,
+		fontWeight: '400',
+	}
+});

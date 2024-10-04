@@ -1,0 +1,23 @@
+export default{
+	Camera:"相机",
+	Download:"下载",
+	Pictures:'相册',
+	QQ_Images:'QQ图片',
+	WeiXin:"微信",
+	Screenshots:"截屏",
+	Alipay:"支付宝",
+	images:"图片",
+	img:"其他图片",
+	share:"分享",
+	'All Photos':'所有资源',
+	Videos:"视频",
+	'Live Photos':'直播图片',
+	Recents:"最近的",
+	Bursts:'连拍',
+	Animated:"动画",
+	Favorites:"收藏夹",
+	Panoramas:"全景图",
+	Portrait:"肖像",
+	Selfies:"自拍",
+	ScreenRecorder:'屏幕录制'
+}
